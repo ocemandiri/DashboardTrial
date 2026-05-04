@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCE Mandiri — Dashboard</title>
+    <!-- Tailwind CSS for Pixel Perfect Design -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-[#0A192F] text-slate-300 font-sans antialiased">
+
+    <!-- Header / Brand Band -->
+    <nav class="border-b border-slate-800 bg-[#0A192F]/90 backdrop-blur-md sticky top-0 z-50 px-6 py-4 flex justify-between items-center">
+        <div class="flex items-center gap-3">
+            <div class="w-7 h-7 bg-blue-600 rounded-sm flex items-center justify-center font-bold text-white text-xs">M</div>
+            <span class="text-xs font-bold tracking-[0.2em] text-white">OCE BANK MANDIRI</span>
+        </div>
+        <div class="flex items-center gap-4 text-[10px] font-semibold text-slate-500 uppercase">
+            <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></span> Systems Live</span>
+        </div>
+    </nav>
+
+    <div class="max-w-6xl mx-auto px-6 py-12">
+        <!-- Hero Section -->
+        <header class="mb-16">
+            <h1 class="text-3xl font-light text-white mb-2 tracking-tight">Office of Chief Economist Group</h1>
+            <p class="text-slate-500 text-base">Internal Research & Data Analytics Dashboard</p>
+        </header>
+
+        <!-- Department Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <!-- Card 01 -->
+            <a href="https://trialmsi.netlify.app/" target="_blank" class="group bg-slate-900/40 border border-slate-800 p-6 rounded-lg hover:border-blue-500/50 hover:bg-blue-500/[0.02] transition-all duration-300">
+                <span class="text-[10px] font-mono text-blue-500 uppercase tracking-widest">01 — Macro</span>
+                <h3 class="text-lg font-medium text-white mt-2 group-hover:text-blue-400">Macroeconomic & Financial</h3>
+                <p class="text-sm text-slate-500 mt-2 leading-relaxed">JCI, yields, CDS, FX, capital flows.</p>
+            </a>
+
+            <!-- Card 02 -->
+            <a href="https://1drv.ms/x/c/26e04553d2053093/IQBz4wvR_N_RRZ70brZla-ttAXxxqBKEDt8NBeqp1mHj5MY?e=qLt4uL" target="_blank" class="group bg-slate-900/40 border border-slate-800 p-6 rounded-lg hover:border-blue-500/50 hover:bg-blue-500/[0.02] transition-all duration-300">
+                <span class="text-[10px] font-mono text-blue-500 uppercase tracking-widest">02 — Industry</span>
+                <h3 class="text-lg font-medium text-white mt-2 group-hover:text-blue-400">Industry & Regional</h3>
+                <p class="text-sm text-slate-500 mt-2 leading-relaxed">Commodities & sector indicators.</p>
+            </a>
+
+            <!-- Card 03 -->
+            <a href="https://1drv.ms/x/c/a2ab916b4d3ca1f0/IQBuci2rOVv9S6nP1PxiLTVWAVrgKssegUAvzq1IRXdQcBk?e=94rdnH" target="_blank" class="group bg-slate-900/40 border border-slate-800 p-6 rounded-lg hover:border-blue-500/50 hover:bg-blue-500/[0.02] transition-all duration-300">
+                <span class="text-[10px] font-mono text-blue-500 uppercase tracking-widest">03 — Institute</span>
+                <h3 class="text-lg font-medium text-white mt-2 group-hover:text-blue-400">Mandiri Institute</h3>
+                <p class="text-sm text-slate-500 mt-2 leading-relaxed">BBM consumption analysis 2019–2025.</p>
+            </a>
+        </div>
+
+        <!-- Hyperlink Hub (Smooth Workflow) -->
+        <div class="mt-20 border-t border-slate-800 pt-10">
+            <h2 class="text-[10px] font-bold text-slate-600 uppercase tracking-[0.3em] mb-6">Quick-Access Live Databases</h2>
+            <div class="flex flex-wrap gap-3">
+                <a href="https://royal-water-ec36.arnolaistiqomahputri.workers.dev/" class="flex items-center gap-2 px-4 py-2 bg-slate-800/50 border border-slate-700 rounded text-xs font-medium hover:bg-blue-600 hover:text-white transition-all">
+                    <i data-lucide="database" class="w-4 h-4"></i> Worker API Data
+                </a>
+                <a href="#" class="flex items-center gap-2 px-4 py-2 bg-slate-800/50 border border-slate-700 rounded text-xs font-medium hover:bg-blue-600 hover:text-white transition-all">
+                    <i data-lucide="link" class="w-4 h-4"></i> Internal References
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center py-10 opacity-30 text-[10px] tracking-widest">
+        SOURCE SYNCED: MAY 2026 • BANK MANDIRI INTERNAL
+    </footer>
+
+    <script>
+        // Initializes the icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
